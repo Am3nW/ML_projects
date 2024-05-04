@@ -14,4 +14,4 @@ user_input = pd.DataFrame({'age': [age_entry], 'gender': [gender_entry]})
 model = DecisionTreeClassifier()
 model.fit(x,y)
 prediction = model.predict(user_input)
-print(*prediction)
+print(*prediction)a
